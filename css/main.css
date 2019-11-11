@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, 'Dosis';
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card h2 {
+  color: #512200;
+  font-size: 1.5rem;
+}
+
+.link-card {
+  display: inline-block;
+  border-radius: 8px;
+  border-width: 3px;
+  background-color: #dcd4cd;
+  border-style: solid;
+  border-color: #9a816d;
+  color: #512200;
+  padding: 0 .75em;
+  font-size: .875rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+dl {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: #9a816d;
+}
+
+dt {
+  display: inline-block;
+  width: 30%;
+}
+
+dd {
+  display: inline-block;
+  width: 50%;
+}
+
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em;
+  margin-left: 4rem;
+  border-width: 3px;
+  border-radius: 8px;
+  background-color: #785439;
+  color: #f0eee8;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
